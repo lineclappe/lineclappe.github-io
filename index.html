@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description">
+  
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-my-new-post" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/11/01/my-new-post/" class="article-date">
+  <time datetime="2015-11-01T12:31:48.000Z" itemprop="datePublished">2015-11-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/11/01/my-new-post/">my_new_post</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="字幕制作之压制视频">字幕制作之压制视频</h1><hr>
+<p>[TOC]</p>
+<h2 id="准备工作">准备工作</h2><h3 id="何为压制">何为压制</h3><p> 压制就是将外挂字幕和视频进行合并的过程。一般常见的外挂字幕的类型有srt字幕和ass字幕。视频的格式种类就比较多了，比如mkv，mp4，avi等。对于不同格式的压制，我们使用的方法都是一样的。</p>
+<p>###软件安装<br>首先我们得安装必备的软件。一个是解码器，一个是压制软件。解码器我们推荐<a href="http://download.pchome.net/multimedia/media/detail-22131.html" target="_blank" rel="external">完美解码</a>。安装时候默认安装即可。压制软件推荐<a href="http://sourceforge.net/projects/megui/" target="_blank" rel="external">Megui</a>。Megui下载后解压就可以直接用了。<br>另外我们推荐安装<a href="http://www.nero.com/chs/company/about-nero/nero-aac-codec.php" target="_blank" rel="external">neroaac</a>的音频插件，这样方便我们压制aac格式的音频文件。安装完以后，把下图所示的三个文件移动到Megui解压文件夹中的.\tools\eac3to\中。然后我们打开Megui，菜单栏里面点击Options-&gt;Settings。选择External Program Configuration，点击Enable NeroAacEnc，找到刚才复制到对应文件夹的exe文件。这样重启软件之后就可以进行对应aac文件的压制了。<br><img src="http://img.blog.csdn.net/20151031211150174" alt="文件"></p>
+<p>##AVS制作</p>
+<p>###脚本制作<br>压制视频需要用avs作为脚本调用视频和音频。avs脚本的制作我们可以简单的用Megui来完成。点击菜单栏的Tools-&gt; AVS script creator,如图2所示。<br><img src="http://img.blog.csdn.net/20151031211652123" alt="图2"></p>
+<p>在Video Input中找到我们要调入的视频文件，弹出对话框如下图。<br><img src="http://img.blog.csdn.net/20151031215433519" alt="图3"></p>
+<p>我们点击DirectShowSource进行编辑。上面有三个子菜单，I/O,Filters以及Script。Script是最终的AVS脚本，我们可以在这里进行代码的手写。I/O这里可以对输入的视频进行一定的处理，比如修改分辨率，切边等等。Filters这个子菜单下，我们可以对视频进行<a href="http://wxrsm.blog.sohu.com/244835440.html" target="_blank" rel="external">视频反交错</a>。一般对于比较古老的视频，比如360i的，480i的视频，需要进行反交错处理。而对于新视频并不需要这么做。在Filters子菜单下，我们还可以进行字幕加载。<br><img src="http://img.blog.csdn.net/20151031211952162" alt="图4"></p>
+<p>下面我们只执行最简单的操作，即给视频加上字幕，而不进行其他的操作。我们点击filters子菜单，点击subtitles。输入字幕后直接点击保存。<br><img src="http://img.blog.csdn.net/20151031212517198" alt="图5"></p>
+<p>出现以下图片说明加载成功。<br><img src="http://img.blog.csdn.net/20151031212627109" alt="图6"></p>
+<p>我们关掉这个画面，至此，最简单的AVS脚本已经制作完毕了。</p>
+<p>##视频压制</p>
+<p>###总述<br>有了脚本以后我们可以进行视频的压制。视频的压制分为三个部分，视频压制，音频压制以及视频音频的合并。而Megui的主界面上下正好分成了视频部分和音频部分。<br><img src="http://img.blog.csdn.net/20151031213239005" alt="图6"></p>
+<p>###视频压制<br>视频部分我们在Avisynth Script部分导入刚才做好的avs脚本。接下来选择Encoder Settings和File format里的选项。Encoder Settings里可以选择编码的方式，一般我们选择x264.File Format可以选择mkv或者mp4，这个主要看个人的喜好了，两个都是很好的格式。然后我们点击config，出现下图。<br><img src="http://img.blog.csdn.net/20151031213607288" alt="图7"></p>
+<p>注意，一定要在show advanced settings处打上钩。主要要调整的是Encoding Mode和Bitrate两个选项。Encoding Mode一般选择ABR或者Automated 2 pass两种。ABR的话只会编码一次，2 pass会编码两次。选择2 pass会花比第一种多一倍多的时间获得更好的视频质量。而Bitrate决定了视频的质量。一般720p的比特率在3000左右，压制480p的话800的参数足够。压制人人影视的1024*576分辨率的视频的话，比特率1500足矣。一般来说，视频压制的比特率要小于等于原始视频的比特率。这些选好以后点击ok。</p>
+<p>###音频压制<br>音频部分，在audio input里打开视频文件（注意：不是avs文件，因为avs默认禁止音频）。然后Encoder Settings找到Nero AAC:*scratchpad*。点击config。<br><img src="http://img.blog.csdn.net/20151031214218724" alt="图9"></p>
+<p>音频也有对应的比特率。可以直接点variable bitrate，也可以选择上面的adaptive bitrate和constant bitrate。我一般选择adaptive bitrate。而音频的比特率设置可以这么参考，高质量MP3的比特率是320，一般MP3（qq音乐上下载的）的比特率就120。设置完以后点击ok。</p>
+<p>###视频音频合并<br>下面进行视频和音频的合并。合并有两个方案。</p>
+<ul>
+<li><strong>方案1</strong>：音频和视频分别点击queue。<br><img src="http://img.blog.csdn.net/20151031214529683" alt="图10"><br>然后菜单栏Tools-&gt;Muxer-&gt;Mkv Muxer<br><img src="http://img.blog.csdn.net/20151031214646350" alt="图11"><br>分别在video和audio处导入音频，最后在底下点queue即可。这个方法的优点是可以进行多音频轨道的封装。<br>-<strong>方案2</strong>：一键自动化处理。点击AutoEncode按钮。<br><img src="http://img.blog.csdn.net/20151031214937999" alt="图12"><br>在No Target Size处选中，点queue以后系统就可以自动化的帮你先压音频，再压视频，最后合并了。</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/11/01/my-new-post/" data-id="cign1z5f70001dcibjj91et7e" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/11/01/hello-world/" class="article-date">
+  <time datetime="2015-11-01T11:26:08.087Z" itemprop="datePublished">2015-11-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/11/01/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/11/01/hello-world/" data-id="cign1z5e50000dcib62b21n24" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+  
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  
+    
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2015/11/01/my-new-post/">my_new_post</a>
+          </li>
+        
+          <li>
+            <a href="/2015/11/01/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2015 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
