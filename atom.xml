@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-11-06T09:53:42.236Z</updated>
+  <updated>2015-11-08T14:35:28.986Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[字幕时间轴制作]]></title>
+    <link href="http://yoursite.com/2015/11/05/blog3/"/>
+    <id>http://yoursite.com/2015/11/05/blog3/</id>
+    <published>2015-11-05T12:31:48.000Z</published>
+    <updated>2015-11-08T14:35:28.986Z</updated>
+    <content type="html"><![CDATA[<!-- toc -->
+<ul>
+<li><a href="#&#x5173;&#x4E8E;&#x65F6;&#x95F4;&#x8F74;">&#x5173;&#x4E8E;&#x65F6;&#x95F4;&#x8F74;</a></li>
+<li><a href="#&#x51C6;&#x5907;">&#x51C6;&#x5907;</a></li>
+<li><a href="#&#x5177;&#x4F53;&#x6B65;&#x9AA4;">&#x5177;&#x4F53;&#x6B65;&#x9AA4;</a></li>
+</ul>
+<!-- tocstop -->
+<h1 id="&#x5173;&#x4E8E;&#x65F6;&#x95F4;&#x8F74;">&#x5173;&#x4E8E;&#x65F6;&#x95F4;&#x8F74;</h1><p>&#x65F6;&#x95F4;&#x8F74;&#x51B3;&#x5B9A;&#x4E86;&#x5B57;&#x5E55;&#x7684;&#x51FA;&#x73B0;&#x548C;&#x7ED3;&#x675F;&#x65F6;&#x95F4;&#x3002;&#x76EE;&#x524D;&#x6765;&#x8BB2;&#xFF0C;&#x5B57;&#x5E55;&#x65F6;&#x95F4;&#x8F74;&#x7684;&#x5236;&#x4F5C;&#x4E3B;&#x8981;&#x5206;&#x4E3A;&#x4E24;&#x5927;&#x5757;&#xFF0C;&#x7B2C;&#x4E00;&#x5757;&#x662F;&#x5BF9;&#x65F6;&#x95F4;&#x8F74;&#x8FDB;&#x884C;&#x8C03;&#x6574;&#xFF0C;&#x7B2C;&#x4E8C;&#x5757;&#x662F;&#x65B0;&#x5EFA;&#x65F6;&#x95F4;&#x8F74;&#x3002;&#x56E0;&#x4E3A;&#x7535;&#x89C6;&#x5267;&#x57FA;&#x672C;&#x90FD;&#x6709;&#x5BF9;&#x5E94;&#x7684;cc&#x5B57;&#x5E55;&#xFF0C;&#x5BF9;&#x4E8E;&#x8FD9;&#x79CD;&#x7C7B;&#x578B;&#x7684;&#x65F6;&#x95F4;&#x8F74;&#x5236;&#x4F5C;&#xFF0C;&#x6211;&#x4EEC;&#x4E00;&#x822C;&#x662F;&#x76F4;&#x63A5;&#x5728;&#x539F;&#x59CB;cc&#x5B57;&#x5E55;&#x4E0A;&#x8FDB;&#x884C;&#x8C03;&#x6574;&#x3002;&#x4F46;&#x4E5F;&#x6709;&#x5F88;&#x591A;&#x8282;&#x76EE;&#x662F;&#x6CA1;&#x6709;cc&#x5B57;&#x5E55;&#x7684;&#xFF0C;&#x8FD9;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x5C31;&#x9700;&#x8981;&#x6253;&#x7A7A;&#x8F74;&#x6765;&#x8C03;&#x6574;&#x5B57;&#x5E55;&#x4E86;&#x3002;&#x53E6;&#x5916;&#xFF0C;&#x4E5F;&#x6709;&#x5B57;&#x5E55;&#x7EC4;&#x5BF9;&#x65F6;&#x95F4;&#x8F74;&#x7684;&#x7CBE;&#x5EA6;&#x8981;&#x6C42;&#x5F88;&#x9AD8;&#xFF0C;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#x4ED6;&#x4EEC;&#x8981;&#x6C42;cc&#x5B57;&#x5E55;&#x4E5F;&#x8981;&#x5168;&#x90E8;&#x91CD;&#x65B0;&#x8FDB;&#x884C;&#x624B;&#x52A8;&#x6253;&#x8F74;&#x3002;&#x8FD9;&#x7BC7;&#x535A;&#x5BA2;&#x6211;&#x4EEC;&#x4E3B;&#x8981;&#x4ECB;&#x7ECD;&#x600E;&#x4E48;&#x8FDB;&#x884C;&#x624B;&#x52A8;&#x6253;&#x8F74;&#x3002;</p>
+<h1 id="&#x51C6;&#x5907;">&#x51C6;&#x5907;</h1><p>&#x6211;&#x4EEC;&#x4F7F;&#x7528;&#x7684;&#x8F6F;&#x4EF6;&#x662F;&#x4EBA;&#x4EBA;&#x5B57;&#x5E55;&#x7EC4;&#x51FA;&#x54C1;&#x7684;Time Machine&#x3002;&#x8FD9;&#x4E2A;&#x8F6F;&#x4EF6;&#x7684;&#x4F18;&#x70B9;&#x662F;&#x6253;&#x65F6;&#x95F4;&#x8F74;&#x975E;&#x5E38;&#x7B80;&#x5355;&#xFF0C;&#x5BB9;&#x6613;&#x4E0A;&#x624B;&#x3002;&#x7F3A;&#x70B9;&#x662F;&#x8F6F;&#x4EF6;&#x7ECF;&#x5E38;&#x5D29;&#x6E83;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x8981;&#x4E0D;&#x5B9A;&#x671F;ctrl+s&#x6765;&#x8FDB;&#x884C;&#x6587;&#x4EF6;&#x7684;&#x4FDD;&#x5B58;&#x3002;</p>
+<h1 id="&#x5177;&#x4F53;&#x6B65;&#x9AA4;">&#x5177;&#x4F53;&#x6B65;&#x9AA4;</h1><p>&#x9996;&#x5148;&#xFF0C;&#x7FFB;&#x8BD1;&#x7684;&#x6587;&#x7A3F;&#x4FDD;&#x5B58;&#x6210;&#x4E00;&#x884C;&#x4E2D;&#x6587;&#x4E00;&#x884C;&#x82F1;&#x6587;&#x7684;&#x5F62;&#x5F0F;&#xFF0C;&#x7136;&#x540E;&#x6BCF;&#x4E2A;&#x4E2D;&#x82F1;&#x6587;&#x53E5;&#x5B50;&#x4E4B;&#x95F4;&#x52A0;&#x4E2A;&#x7A7A;&#x683C;&#x9694;&#x5F00;&#xFF0C;&#x5C31;&#x50CF;&#x8FD9;&#x6837;&#x5B50;&#x3002;<br><img src="http://img.blog.csdn.net/20151105214608508" alt="&#x6587;&#x672C;&#x4F8B;&#x5B50;"><br>&#x7136;&#x540E;&#x6253;&#x5F00;Time Machine,&#x70B9;&#x51FB;&#x5DE6;&#x4FA7;&#x7684;&#x5BFC;&#x5165;&#x6587;&#x672C;&#xFF0C;&#x9009;&#x62E9;&#x4EE5;&#x7A7A;&#x884C;&#x4E3A;&#x65F6;&#x95F4;&#x8F74;&#x5207;&#x5206;&#x70B9;<br><img src="http://img.blog.csdn.net/20151105214705550" alt="&#x5BFC;&#x5165;&#x6587;&#x672C;"><br>&#x8FD9;&#x6837;&#x5B50;&#x5B57;&#x5E55;&#x5C31;&#x6309;&#x7167;&#x4E0D;&#x540C;&#x65F6;&#x95F4;&#x9694;&#x5F00;&#x4E86;&#x3002;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x5BFC;&#x5165;&#x89C6;&#x9891;&#xFF0C;&#x7136;&#x540E;&#x5C31;&#x53EF;&#x4EE5;&#x8FB9;&#x64AD;&#x653E;&#x8FB9;&#x6253;&#x8F74;&#x4E86;&#x3002;<br><img src="http://img.blog.csdn.net/20151105215243800" alt="&#x89C6;&#x9891;&#x64AD;&#x653E;&#x5904;"><br>Time Machine&#x9ED8;&#x8BA4;&#x6253;&#x8F74;&#x7684;&#x5FEB;&#x6377;&#x6309;&#x94AE;&#x662F;F8&#x548C;F9,F8&#x662F;&#x5F00;&#x59CB;,F9&#x662F;&#x7ED3;&#x675F;&#x3002;&#x6240;&#x4EE5;&#x4F60;&#x5728;&#x6253;&#x8F74;&#x7684;&#x65F6;&#x5019;&#x53EA;&#x9700;&#x8981;&#x6309;&#x4E24;&#x4E2A;&#x5FEB;&#x6377;&#x952E;&#x5373;&#x53EF;&#x3002;&#x8FD9;&#x91CC;&#x6709;&#x4E00;&#x4E2A;&#x5C0F;&#x6280;&#x5DE7;&#xFF0C;&#x5C31;&#x662F;&#x6309;&#x5B8C;F9&#x540E;&#x8981;&#x96C6;&#x4E2D;&#x6CE8;&#x610F;&#x529B;&#xFF0C;&#x968F;&#x65F6;&#x51C6;&#x5907;&#x6309;F8,&#x56E0;&#x4E3A;&#x4E24;&#x53E5;&#x8BDD;&#x4E4B;&#x95F4;&#x7684;&#x65F6;&#x95F4;&#x95F4;&#x9694;&#x53EF;&#x80FD;&#x4F1A;&#x5F88;&#x77ED;&#x3002;<br>&#x6253;&#x7A7A;&#x8F74;&#x662F;&#x4E00;&#x4E2A;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF0C;&#x4F46;&#x662F;&#x9700;&#x8981;&#x719F;&#x80FD;&#x751F;&#x5DE7;&#x7684;&#x6280;&#x672F;&#x3002;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x591A;&#x591A;&#x7EC3;&#x4E60;&#x624D;&#x80FD;&#x638C;&#x63E1;&#x8FD9;&#x4E2A;&#x6280;&#x5DE7;&#x3002;</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<!-- toc -->
+<ul>
+<li><a href="#&#x5173;&#x4E8E;&#x65F6;&#x95F4;&#x8F74;">&#x5173;&#x4E8E;&#x65F6;&#x95F4;&#x8F74;</a></li>
+<li><a href="#&#]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[字幕时间轴制作]]></title>
