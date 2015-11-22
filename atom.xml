@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-11-22T13:16:02.148Z</updated>
+  <updated>2015-11-22T13:21:14.436Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://yoursite.com/2015/11/22/Caffe_Install/"/>
     <id>http://yoursite.com/2015/11/22/Caffe_Install/</id>
     <published>2015-11-22T13:01:48.000Z</published>
-    <updated>2015-11-22T13:16:02.148Z</updated>
+    <updated>2015-11-22T13:21:14.436Z</updated>
     <content type="html"><![CDATA[<!-- toc -->
 <ul>
 <li><a href="#caffe&#x5B89;&#x88C5;&#x6559;&#x7A0B;ubuntu1504cuda75">Caffe&#x5B89;&#x88C5;&#x6559;&#x7A0B;&#xFF08;Ubuntu15.04+CUDA7.5)</a><ul>
@@ -32,6 +32,7 @@
 </li>
 <li><a href="#caffe&#x5B89;&#x88C5;&#x548C;&#x7F16;&#x8BD1;">Caffe&#x5B89;&#x88C5;&#x548C;&#x7F16;&#x8BD1;</a></li>
 <li><a href="#&#x5B89;&#x88C5;&#x611F;&#x60F3;">&#x5B89;&#x88C5;&#x611F;&#x60F3;</a></li>
+<li><a href="#&#x53C2;&#x8003;&#x6587;&#x732E;">&#x53C2;&#x8003;&#x6587;&#x732E;</a></li>
 </ul>
 </li>
 </ul>
@@ -74,6 +75,9 @@
 <p>&#x4F60;&#x8981;&#x76F8;&#x4FE1;&#x4F60;&#x9047;&#x5230;&#x8FC7;&#x7684;&#x9519;&#x8BEF;&#x522B;&#x4EBA;&#x65E9;&#x5C31;&#x9047;&#x5230;&#x8FC7;&#x4E86;&#xFF0C;&#x6700;&#x597D;&#x5728;Google&#x548C;Stackoverflow&#x4E0A;&#x641C;&#x7D22;&#x51FA;&#x73B0;&#x7684;&#x9519;&#x8BEF;&#x3002;&#x9519;&#x8BEF;&#x6700;&#x597D;&#x662F;&#x82F1;&#x6587;&#x539F;&#x6587;&#xFF0C;&#x8FD9;&#x6837;&#x6BD4;&#x8F83;&#x65B9;&#x4FBF;&#x80FD;&#x641C;&#x5230;&#x6B63;&#x786E;&#x7684;&#x7ED3;&#x5C40;&#x65B9;&#x6848;&#x3002;</p>
 <p>-<strong>3.&#x4F18;&#x5148;apt-get&#xFF0C;&#x5176;&#x6B21;Git&#xFF0C;&#x518D;&#x6B21;&#x7F51;&#x7AD9;&#x4E0B;&#x7684;zip</strong></p>
 <p>&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;&#x548C;&#x4F9D;&#x8D56;&#x9879;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x80FD;&#x7528;&#x7CFB;&#x7EDF;&#x7684;apt-get install&#x7684;&#x4F18;&#x5148;&#x8FD9;&#x4E48;&#x505A;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x6837;&#x5C31;&#x4E0D;&#x9700;&#x8981;&#x4F60;&#x81EA;&#x5DF1;&#x7F16;&#x8BD1;&#x4EE5;&#x53CA;&#x914D;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x3002;&#x5F53;&#x6CA1;&#x6CD5;apt-get&#x800C;&#x4E14;&#x8F6F;&#x4EF6;&#x53EF;&#x4EE5;&#x5728;Github&#x4E0A;&#x627E;&#x5230;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F18;&#x5148;&#x53BB;Github&#x4E0A;clone&#x3002;&#x56E0;&#x4E3A;&#x4E00;&#x822C;&#x8FD9;&#x4E2A;project&#x5BF9;&#x5E94;&#x7684;Readme&#x91CC;&#x9762;&#x4F1A;&#x6709;&#x975E;&#x5E38;&#x7EC6;&#x81F4;&#x7684;&#x5B89;&#x88C5;&#x4ECB;&#x7ECD;&#x3002;&#x6BD4;&#x5982;&#x5B89;&#x88C5;Caffe&#x7684;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x5C31;&#x662F;&#x4ECE;Github&#x4E0A;clone&#x7684;&#x3002;&#x5F53;Github&#x4E0A;&#x4E5F;&#x6CA1;&#x6709;&#x7684;&#x65F6;&#x5019;&#x624D;&#x4F1A;&#x8003;&#x8651;&#x53BB;&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;&#xFF0C;&#x6BD4;&#x5982;&#x5B89;&#x88C5;CUDA&#x7684;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x662F;&#x5728;&#x5B98;&#x7F51;&#x4E0B;&#x7684;deb&#x6587;&#x4EF6;&#x3002;</p>
+<h2 id="&#x53C2;&#x8003;&#x6587;&#x732E;">&#x53C2;&#x8003;&#x6587;&#x732E;</h2><p><a href="http://caffe.berkeleyvision.org/install_apt.html" target="_blank" rel="external">1.Caffe&#x7684;&#x5B98;&#x65B9;Ubuntu&#x5B89;&#x88C5;&#x6587;&#x6863;</a></p>
+<p><a href="http://ouxinyu.github.io/Blogs/20151108001.html" target="_blank" rel="external">2.&#x6B27;&#x65B0;&#x5B87;&#x7684;&#x5B89;&#x88C5;&#x535A;&#x5BA2;</a></p>
+<p><a href="http://www.tuicool.com/articles/nYJrYra" target="_blank" rel="external">3.Ubuntu&#x4E0B;&#x5B89;&#x88C5;Opencv3.0</a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<!-- toc -->
