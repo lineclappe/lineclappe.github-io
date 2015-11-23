@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-11-22T13:21:14.436Z</updated>
+  <updated>2015-11-23T08:19:49.392Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://yoursite.com/2015/11/22/Caffe_Install/"/>
     <id>http://yoursite.com/2015/11/22/Caffe_Install/</id>
     <published>2015-11-22T13:01:48.000Z</published>
-    <updated>2015-11-22T13:21:14.436Z</updated>
+    <updated>2015-11-23T08:19:49.392Z</updated>
     <content type="html"><![CDATA[<!-- toc -->
 <ul>
 <li><a href="#caffe&#x5B89;&#x88C5;&#x6559;&#x7A0B;ubuntu1504cuda75">Caffe&#x5B89;&#x88C5;&#x6559;&#x7A0B;&#xFF08;Ubuntu15.04+CUDA7.5)</a><ul>
@@ -85,14 +85,16 @@
 <li><a href="#caffe&#x5B89;&#x88C5;&#x6559;&#x7A0B;ubuntu1504cuda75">Caffe&#x5B89;&#x88C5;&#x6559;&#x7A0B;&#xFF08;Ubuntu15]]>
     </summary>
     
+      <category term="科研" scheme="http://yoursite.com/categories/%E7%A7%91%E7%A0%94/"/>
+    
   </entry>
   
   <entry>
     <title><![CDATA[字幕时间轴制作(2)]]></title>
-    <link href="http://yoursite.com/2015/11/08/New%20Document/"/>
-    <id>http://yoursite.com/2015/11/08/New Document/</id>
+    <link href="http://yoursite.com/2015/11/08/timeline_2/"/>
+    <id>http://yoursite.com/2015/11/08/timeline_2/</id>
     <published>2015-11-08T12:31:48.000Z</published>
-    <updated>2015-11-08T14:39:12.978Z</updated>
+    <updated>2015-11-23T08:20:20.937Z</updated>
     <content type="html"><![CDATA[<!-- toc -->
 <ul>
 <li><a href="#&#x5B57;&#x5E55;&#x4F1A;&#x51FA;&#x73B0;&#x7684;&#x51E0;&#x5927;&#x95EE;&#x9898;">&#x5B57;&#x5E55;&#x4F1A;&#x51FA;&#x73B0;&#x7684;&#x51E0;&#x5927;&#x95EE;&#x9898;</a><ul>
@@ -139,14 +141,16 @@
 <li><a href="#&#x5B57;&#x5E55;&#x4F1A;&#x51FA;&#x73B0;&#x7684;&#x51E0;&#x5927;&#x95EE;&#x9898;">&#x5B57;&#x5E55;&#x4F1A;&#]]>
     </summary>
     
+      <category term="字幕" scheme="http://yoursite.com/categories/%E5%AD%97%E5%B9%95/"/>
+    
   </entry>
   
   <entry>
     <title><![CDATA[字幕时间轴制作(1)]]></title>
-    <link href="http://yoursite.com/2015/11/05/new_post/"/>
-    <id>http://yoursite.com/2015/11/05/new_post/</id>
+    <link href="http://yoursite.com/2015/11/05/timeline_1/"/>
+    <id>http://yoursite.com/2015/11/05/timeline_1/</id>
     <published>2015-11-05T12:31:48.000Z</published>
-    <updated>2015-11-08T14:39:06.948Z</updated>
+    <updated>2015-11-23T08:19:59.815Z</updated>
     <content type="html"><![CDATA[<!-- toc -->
 <ul>
 <li><a href="#&#x5173;&#x4E8E;&#x65F6;&#x95F4;&#x8F74;">&#x5173;&#x4E8E;&#x65F6;&#x95F4;&#x8F74;</a></li>
@@ -165,14 +169,16 @@
 <li><a href="#&#]]>
     </summary>
     
+      <category term="字幕" scheme="http://yoursite.com/categories/%E5%AD%97%E5%B9%95/"/>
+    
   </entry>
   
   <entry>
     <title><![CDATA[字幕制作之压制视频]]></title>
-    <link href="http://yoursite.com/2015/11/01/my-new-post/"/>
-    <id>http://yoursite.com/2015/11/01/my-new-post/</id>
+    <link href="http://yoursite.com/2015/11/01/encoding/"/>
+    <id>http://yoursite.com/2015/11/01/encoding/</id>
     <published>2015-11-01T12:31:48.000Z</published>
-    <updated>2015-11-06T09:53:03.709Z</updated>
+    <updated>2015-11-23T08:20:09.447Z</updated>
     <content type="html"><![CDATA[<!-- toc -->
 <ul>
 <li><a href="#&#x51C6;&#x5907;&#x5DE5;&#x4F5C;">&#x51C6;&#x5907;&#x5DE5;&#x4F5C;</a><ul>
@@ -218,6 +224,8 @@
 <li><a href="#&#x51C6;&#x5907;&#x5DE5;&#x4F5C;">&#x51C6;&#x5907;&#x5DE5;&#x4F5C;</a><ul>
 <li><a href="#&#x4F55;&#x4E3A;&#x]]>
     </summary>
+    
+      <category term="字幕" scheme="http://yoursite.com/categories/%E5%AD%97%E5%B9%95/"/>
     
   </entry>
   
