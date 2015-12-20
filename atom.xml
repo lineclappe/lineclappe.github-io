@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-11-24T03:00:27.492Z</updated>
+  <updated>2015-12-20T13:24:40.824Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[特效字幕制作教程(1)-初识Aegisub]]></title>
+    <link href="http://yoursite.com/2015/12/20/aegisub_1/"/>
+    <id>http://yoursite.com/2015/12/20/aegisub_1/</id>
+    <published>2015-12-20T13:07:48.000Z</published>
+    <updated>2015-12-20T13:24:40.824Z</updated>
+    <content type="html"><![CDATA[<!-- toc -->
+<ul>
+<li><a href="#aegisub&#x7B80;&#x4ECB;">Aegisub&#x7B80;&#x4ECB;</a></li>
+<li><a href="#aegisub&#x754C;&#x9762;&#x4E0A;&#x624B;">Aegisub&#x754C;&#x9762;&#x4E0A;&#x624B;</a><ul>
+<li><a href="#&#x754C;&#x9762;&#x603B;&#x89C8;">&#x754C;&#x9762;&#x603B;&#x89C8;</a></li>
+<li><a href="#&#x6253;&#x5F00;&#x5B57;&#x5E55;">&#x6253;&#x5F00;&#x5B57;&#x5E55;</a></li>
+<li><a href="#&#x6253;&#x5F00;&#x89C6;&#x9891;">&#x6253;&#x5F00;&#x89C6;&#x9891;</a></li>
+</ul>
+</li>
+<li><a href="#faq">FAQ</a><ul>
+<li><a href="#1&#x4E3A;&#x4EC0;&#x4E48;&#x6211;&#x5BFC;&#x5165;&#x89C6;&#x9891;&#x540E;&#x89C6;&#x9891;&#x4E0D;&#x663E;&#x793A;&#x51FA;&#x6765;&#x554A;">1.&#x4E3A;&#x4EC0;&#x4E48;&#x6211;&#x5BFC;&#x5165;&#x89C6;&#x9891;&#x540E;&#x89C6;&#x9891;&#x4E0D;&#x663E;&#x793A;&#x51FA;&#x6765;&#x554A;&#xFF1F;</a></li>
+<li><a href="#2&#x6211;&#x4E0D;&#x5C0F;&#x5FC3;&#x628A;&#x97F3;&#x9891;&#x5173;&#x6389;&#x4E86;&#x8BF7;&#x95EE;&#x8BE5;&#x600E;&#x4E48;&#x91CD;&#x65B0;&#x6253;&#x5F00;">2.&#x6211;&#x4E0D;&#x5C0F;&#x5FC3;&#x628A;&#x97F3;&#x9891;&#x5173;&#x6389;&#x4E86;&#xFF0C;&#x8BF7;&#x95EE;&#x8BE5;&#x600E;&#x4E48;&#x91CD;&#x65B0;&#x6253;&#x5F00;&#xFF1F;</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+<p>&#x7279;&#x6548;&#x5B57;&#x5E55;&#x7684;&#x5236;&#x4F5C;(1) - &#x521D;&#x8BC6;Aegisub</p>
+<h1 id="aegisub&#x7B80;&#x4ECB;">Aegisub&#x7B80;&#x4ECB;</h1><p>Aegisub&#x662F;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;(Windows,osx,linux)&#x7684;ass&#x683C;&#x5F0F;&#x5B57;&#x5E55;&#x5236;&#x4F5C;&#x8F6F;&#x4EF6;&#xFF0C;&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x7684;&#x5236;&#x4F5C;&#x51FA;&#x542B;&#x6709;&#x7279;&#x6B8A;&#x6548;&#x679C;&#x7684;&#x5B57;&#x5E55;&#x3002;&#x5B83;&#x652F;&#x6301;&#x6211;&#x4EEC;&#x4ECE;&#x6587;&#x672C;&#x76F4;&#x63A5;&#x5236;&#x4F5C;ass&#x5B57;&#x5E55;&#xFF0C;&#x4E5F;&#x652F;&#x6301;&#x901A;&#x8FC7;&#x5BFC;&#x5165;srt&#x683C;&#x5F0F;&#x7684;&#x5B57;&#x5E55;&#x6587;&#x4EF6;&#x6765;&#x5236;&#x4F5C;&#x7279;&#x6548;&#x5B57;&#x5E55;&#x3002;&#x4E0B;&#x8F7D;&#x8F6F;&#x4EF6;&#x53EF;&#x4EE5;&#x767B;&#x9646;&#x5B98;&#x7F51;&#x9009;&#x62E9;&#x81EA;&#x5DF1;&#x7684;&#x5E73;&#x53F0;&#x6765;<a href="http://www.aegisub.org/" target="_blank" rel="external">&#x4E0B;&#x8F7D;</a>&#x3002;</p>
+<h1 id="aegisub&#x754C;&#x9762;&#x4E0A;&#x624B;">Aegisub&#x754C;&#x9762;&#x4E0A;&#x624B;</h1><h2 id="&#x754C;&#x9762;&#x603B;&#x89C8;">&#x754C;&#x9762;&#x603B;&#x89C8;</h2><p>&#x6253;&#x5F00;Aegisub 3.2.2&#x7248;&#x672C;&#xFF0C;&#x6620;&#x5165;&#x773C;&#x5E18;&#x7684;&#x662F;&#x8FD9;&#x6837;&#x7684;&#x754C;&#x9762;&#x3002;<br><img src="http://i.imgur.com/FfLwhD1.jpg" alt="Aegisub&#x9875;&#x9762;"><br>&#x4ECE;&#x4E0A;&#x5230;&#x4E0B;&#x5206;&#x4E3A;&#x83DC;&#x5355;&#x680F;&#xFF0C;&#x5DE5;&#x5177;&#x680F;&#xFF0C;&#x5B57;&#x5E55;&#x8BBE;&#x7F6E;&#x680F;&#x4EE5;&#x53CA;&#x5B57;&#x5E55;&#x72B6;&#x6001;&#x680F;&#x3002;</p>
+<h2 id="&#x6253;&#x5F00;&#x5B57;&#x5E55;">&#x6253;&#x5F00;&#x5B57;&#x5E55;</h2><p>&#x64CD;&#x4F5C;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF0C;&#x76F4;&#x63A5;&#x628A;srt&#x6587;&#x4EF6;&#x62D6;&#x8FDB;&#x6765;&#x5373;&#x53EF;&#x3002;&#x6216;&#x8005;&#x53EF;&#x4EE5;&#x70B9;&#x51FB;&#x6587;&#x4EF6;-&gt;&#x6253;&#x5F00;&#x5B57;&#x5E55;&#x6765;&#x6253;&#x5F00;&#x5DF2;&#x6709;&#x7684;&#x5B57;&#x5E55;&#x3002;</p>
+<h2 id="&#x6253;&#x5F00;&#x89C6;&#x9891;">&#x6253;&#x5F00;&#x89C6;&#x9891;</h2><p>&#x5728;&#x83DC;&#x5355;&#x680F;&#x4E2D;&#x6709;&#x4E00;&#x4E2A;&#x89C6;&#x9891;&#x7684;&#x9009;&#x9879;&#xFF0C;&#x70B9;&#x51FB;&#x89C6;&#x9891;-&gt;&#x6253;&#x5F00;&#x89C6;&#x9891;&#x5373;&#x53EF;&#x3002;&#x5728;&#x6253;&#x5F00;&#x89C6;&#x9891;&#x7684;&#x65F6;&#x5019;&#x53EF;&#x4EE5;&#x540C;&#x65F6;&#x5BFC;&#x5165;&#x89C6;&#x9891;&#x4E2D;&#x7684;&#x97F3;&#x9891;&#xFF0C;&#x65B9;&#x4FBF;&#x6211;&#x4EEC;&#x4E00;&#x53E5;&#x53E5;&#x7684;&#x4FEE;&#x6539;&#x5B57;&#x5E55;&#x3002;</p>
+<p>&#x8FD9;&#x6837;&#x6211;&#x4EEC;&#x7684;&#x8F6F;&#x4EF6;&#x754C;&#x9762;&#x5C31;&#x53D8;&#x6210;&#x4E86;&#x4E0B;&#x56FE;&#x7684;&#x6837;&#x5F0F;&#x3002;<br><img src="http://i.imgur.com/Uddpyf1.jpg" alt="&#x5BFC;&#x5165;&#x89C6;&#x9891;&#x97F3;&#x9891;&#x540E;&#x7684;Aegisub&#x754C;&#x9762;"></p>
+<p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x968F;&#x7740;&#x89C6;&#x9891;&#x533A;&#x57DF;&#x548C;&#x97F3;&#x9891;&#x533A;&#x57DF;&#x7684;&#x52A0;&#x5165;&#xFF0C;&#x6211;&#x4EEC;&#x63A5;&#x4E0B;&#x6765;&#x5C31;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x81EA;&#x5DF1;&#x7684;&#x9700;&#x6C42;&#x5BF9;&#x5B57;&#x5E55;&#x8FDB;&#x884C;&#x4FEE;&#x6539;&#x5566;&#x3002;&#x800C;&#x4FEE;&#x6539;&#x540E;&#x7684;&#x5B57;&#x5E55;&#x4E5F;&#x4F1A;&#x540C;&#x6B65;&#x66F4;&#x65B0;&#x5728;&#x5DE6;&#x4FA7;&#x7684;&#x89C6;&#x9891;&#x680F;&#x4E0A;&#x9762;&#x3002;</p>
+<h1 id="faq">FAQ</h1><h2 id="1&#x4E3A;&#x4EC0;&#x4E48;&#x6211;&#x5BFC;&#x5165;&#x89C6;&#x9891;&#x540E;&#x89C6;&#x9891;&#x4E0D;&#x663E;&#x793A;&#x51FA;&#x6765;&#x554A;">1.&#x4E3A;&#x4EC0;&#x4E48;&#x6211;&#x5BFC;&#x5165;&#x89C6;&#x9891;&#x540E;&#x89C6;&#x9891;&#x4E0D;&#x663E;&#x793A;&#x51FA;&#x6765;&#x554A;&#xFF1F;</h2><p>&#x90A3;&#x662F;&#x56E0;&#x4E3A;&#x7535;&#x8111;&#x6CA1;&#x6709;&#x5B89;&#x88C5;&#x5BF9;&#x5E94;&#x7684;&#x89E3;&#x7801;&#x5668;&#xFF0C;&#x6240;&#x4EE5;&#x8F6F;&#x4EF6;&#x4E0D;&#x8BC6;&#x522B;&#x89C6;&#x9891;&#x3002;&#x5EFA;&#x8BAE;Windows&#x7528;&#x6237;&#x5728;&#x8FDB;&#x884C;&#x5B57;&#x5E55;&#x5236;&#x4F5C;&#x524D;&#x5148;&#x884C;&#x5B89;&#x88C5;&#x5B8C;&#x7F8E;&#x89E3;&#x7801;&#xFF0C;K-lite mega codec&#x4E4B;&#x7C7B;&#x7684;&#x89E3;&#x7801;&#x8F6F;&#x4EF6;&#x3002;</p>
+<h2 id="2&#x6211;&#x4E0D;&#x5C0F;&#x5FC3;&#x628A;&#x97F3;&#x9891;&#x5173;&#x6389;&#x4E86;&#x8BF7;&#x95EE;&#x8BE5;&#x600E;&#x4E48;&#x91CD;&#x65B0;&#x6253;&#x5F00;">2.&#x6211;&#x4E0D;&#x5C0F;&#x5FC3;&#x628A;&#x97F3;&#x9891;&#x5173;&#x6389;&#x4E86;&#xFF0C;&#x8BF7;&#x95EE;&#x8BE5;&#x600E;&#x4E48;&#x91CD;&#x65B0;&#x6253;&#x5F00;&#xFF1F;</h2><p>&#x83DC;&#x5355;&#x680F;&#x4E0A;&#x662F;&#x6709;&#x97F3;&#x9891;&#x7684;&#x9009;&#x9879;&#xFF0C;&#x70B9;&#x51FB;&#x97F3;&#x9891;&#x4E4B;&#x540E;&#x4F1A;&#x770B;&#x5230;&#x51E0;&#x4E2A;&#x9009;&#x9879;&#x5361;&#x3002;&#x5305;&#x62EC;&#x6253;&#x5F00;&#x97F3;&#x9891;&#x6587;&#x4EF6;&#xFF0C;&#x4ECE;&#x89C6;&#x9891;&#x4E2D;&#x6253;&#x5F00;&#x97F3;&#x9891;&#x4EE5;&#x53CA;&#x5173;&#x95ED;&#x97F3;&#x9891;&#x7B49;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x81EA;&#x5DF1;&#x7684;&#x5B9E;&#x9645;&#x9700;&#x6C42;&#x8FDB;&#x884C;&#x9009;&#x62E9;&#x3002;</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<!-- toc -->
+<ul>
+<li><a href="#aegisub&#x7B80;&#x4ECB;">Aegisub&#x7B80;&#x4ECB;</a></li>
+<li><a href="#aegisub&#x754C;&#x9762;&#x4E0A;&#x62]]>
+    </summary>
+    
+      <category term="字幕" scheme="http://yoursite.com/categories/%E5%AD%97%E5%B9%95/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Caffe安装教程（Ubuntu15.04+CUDA7.5)]]></title>
