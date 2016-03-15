@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2015/11/01/encoding/</loc>
+    <lastmod>2016-03-09T13:38:34.385Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2015/12/20/aegisub_1/</loc>
     <lastmod>2015-12-20T13:24:40.824Z</lastmod>
   </url>
@@ -19,11 +24,6 @@
   <url>
     <loc>http://yoursite.com/2015/11/08/timeline_2/</loc>
     <lastmod>2015-11-23T08:20:20.937Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2015/11/01/encoding/</loc>
-    <lastmod>2015-11-23T08:20:09.447Z</lastmod>
   </url>
   
   <url>
